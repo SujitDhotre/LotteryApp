@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Welcome to The lottery System </h1>
+
+<h1>Enter Sell Lottery Ticket Number </h1>
+       <form action="InsertController" method="post">
+
+        		<label for="name">Enter the New Ticket Number</label><br>
+                <input type="text" name="number" placeholder="Enter the number" class="in" id="number"><br><br>
+               
+                
+                <input type="submit" value="Enter" class="btn">
+		
+		</form>
+		<h1>Check Your Lottery</h1>
+
+       <form action="WinnerController" method="get">
+
+        		<label for="name">Enter the Ticket Number</label><br>
+                <input type="text" name="number" placeholder="Enter the number" class="in" id="number"><br><br>
+               
+                
+                <input type="submit" value="Check" class="btn">
+		
+		</form>
+
+</body>
+</html>
